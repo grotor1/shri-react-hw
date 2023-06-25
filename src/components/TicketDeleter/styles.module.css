@@ -1,0 +1,9 @@
+.ticketDeleter__container {
+  height: 20px;
+  width: 20px;
+  border: 0;
+  background: none;
+  cursor: pointer;
+
+  z-index: 10;
+}

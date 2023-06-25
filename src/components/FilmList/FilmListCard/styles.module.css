@@ -1,0 +1,30 @@
+.filmCard__container {
+  width: 100%;
+  padding: 24px;
+  display: flex;
+  gap: 24px;
+  background: var(--bg-white);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.filmCard__poster {
+  border-radius: 8px;
+}
+
+.filmCard__title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.filmCard__genre {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.filmCard__textInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex-grow: 1;
+}

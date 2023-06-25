@@ -1,0 +1,17 @@
+.aboutUsPage__container {
+  display: flex;
+  padding: 24px;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 32px;
+  height: max-content;
+
+  border-radius: 8px;
+  background: var(--bg-white);
+}
+
+.aboutUsPage__title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+}

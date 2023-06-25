@@ -1,0 +1,39 @@
+.reviewCard__container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 32px;
+  padding: 24px;
+  border-radius: 8px;
+  background: var(--bg-white);
+}
+
+.reviewCard__avatar {
+  border-radius: 8px;
+  height: 100px;
+  background: var(--bg-mid-gray);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviewCard__info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.reviewCard__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.reviewCard__bold {
+  font-weight: 700;
+}

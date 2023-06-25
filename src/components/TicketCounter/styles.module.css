@@ -1,0 +1,29 @@
+.ticketCounter__container {
+  display: flex;
+  gap: 8px;
+  height: 20px;
+  align-items: center;
+}
+
+.ticketCounter__count {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.ticketCounter__button {
+  display: flex;
+  padding: 4px;
+  align-items: flex-start;
+  gap: 10px;
+
+  border-radius: 4px;
+  background: var(--orange);
+  border: 0;
+
+  cursor: pointer;
+}
+
+.ticketCounter__button_disabled {
+  cursor: default;
+  background: var(--orange-disabled);
+}

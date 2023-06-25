@@ -1,0 +1,22 @@
+.basketCounter__wrapper {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.basketCounter__counter {
+  width: 28px;
+  height: 28px;
+  padding: 4px;
+  background: var(--orange);
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--text-white);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}

@@ -1,0 +1,39 @@
+.accordion__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.accordionGroup__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  background: var(--bg-white);
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.accordionTitle__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordionTitle__title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.accordionTitle__icon {
+  width: 32px;
+  height: 32px;
+  transition: all 0.5s;
+}
+
+.accordionTitle__icon_active {
+  transform: rotate(180deg);
+}

@@ -1,0 +1,68 @@
+.filmCard__container {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  gap: 32px;
+  padding: 24px;
+
+  border-radius: 8px;
+  background: var(--bg-white);
+}
+
+.filmCard__image {
+  border-radius: 8px;
+}
+
+.filmCard__info {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.filmCard__infoTop {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.filmCard__infoDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.filmCard__infoDescriptionTitle {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.filmCard__infoDescriptionText {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.filmCard__infoTopTitleContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filmCard__infoTopTitle {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.filmCard__fieldsContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.filmCard__field {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.filmCard__fieldName {
+  font-weight: 700;
+}

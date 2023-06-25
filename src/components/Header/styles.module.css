@@ -1,0 +1,19 @@
+.header {
+  width: 100%;
+  padding: 24px 32px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--bg-gray);
+
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  color: var(--text-white);
+  font-weight: 700;
+  font-size: 32px;
+}

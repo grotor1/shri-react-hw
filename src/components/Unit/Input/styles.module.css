@@ -1,0 +1,29 @@
+.input__container {
+  display: flex;
+  padding: 10px 16px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+
+  border-radius: 8px;
+  border: 1px solid var(--border-gray);
+}
+
+.input__container_active {
+  border: 1px solid var(--orange);
+}
+
+.input {
+  border: 0;
+
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.input::-webkit-input-placeholder {
+  color: var(--text-gray);
+}
+
+.input_active::-webkit-input-placeholder {
+  color: var(--text-black);
+}

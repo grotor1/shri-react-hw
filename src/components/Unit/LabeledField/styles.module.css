@@ -1,0 +1,10 @@
+.labeledField__container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.labeledField__label {
+  font-size: 14px;
+  line-height: 20px;
+}

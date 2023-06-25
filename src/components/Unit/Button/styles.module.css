@@ -1,0 +1,32 @@
+.button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  display: inline-flex;
+  gap: 8px;
+
+  border: 0;
+
+  font-size: 14px;
+  line-height: 20px;
+
+  cursor: pointer;
+}
+
+.button_filled {
+  background: var(--orange);
+  color: var(--bg-white);
+}
+
+.button_filled:hover {
+  background: var(--orange-hover);
+}
+
+.button_outline {
+  border: solid 1px var(--orange);
+  color: var(--orange);
+  background: none;
+}
+
+.button_outline:hover {
+  border: solid 1px var(--orange-hover);
+}

@@ -1,0 +1,6 @@
+.pageWrapper{
+  min-height: calc(100vh - 86px - 84px);
+  display: flex;
+  background: var(--bg-light-gray);
+  padding: 24px 32px 24px;
+}
